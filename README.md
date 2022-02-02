@@ -30,3 +30,24 @@ To run *LabeledSparseStruct* :<br/>
 Output will be of length *n x m* for a graph with *n* vertices and *m* dimensions of the format:
 
     dim1 dim2 ... dimn
+
+###ExplanationSparseStruct
+
+This algorithm generates the explanation for classification of a SparseStruct node representation. This current implementation runs an Extra Trees Classifier on a graph classification task and returns importance values for each correctly classified edge in the graph.
+
+## Usage
+
+### Input
+
+The supported input format is currently only the dataset used for the publication. A version for general input is in development.
+
+### Example
+
+To run *SparseStructExplanation* :<br/>
+	``python ExplanationSparseStruct.py``
+
+
+
+### Output
+
+Output is a dictionary with the group
