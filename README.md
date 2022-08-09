@@ -57,7 +57,9 @@ python SparseStruct.py --input fileneame --output filename --labels filename --w
 
 #### Input
 
-The supported input format is currently only the dataset used for the publication. A version for general input is in development.
+SparseStruct expects in input comma separated edgelist with headers in the form of: <br>
+	noeID1, nodeID2, weight
+
 
 #### Example
 
