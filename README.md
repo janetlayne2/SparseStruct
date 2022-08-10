@@ -53,8 +53,8 @@ From the command line:
 python SparseStruct.py --input --output --nodefeat --weighted --stop --depth --rep  
 ```
 where:
-* --weighted is a Boolean indicator whether the input graph contains weighted edges
-* --stop is a Boolean indicator whether the algorithm will stop at convergence rather than go to a user input depth
+* --weighted indicator whether the input graph contains weighted edges
+* --stop indicator whether the algorithm will stop at convergence rather than go to a user input depth
 * --rep is the desired final dimensionality of the node representations
 * --depth is the number of iterations, which corresponds to the depth of neighborhood exploration upon which each node's representation is based (note that if stop = True then the algorithm will run to convergence regardless of depth input)
 For example:
