@@ -44,7 +44,7 @@ This implementation works for undirected graphs. An implementation for directed 
 ### Usage
 From the command line:
 ```bash
-python SparseStruct.py --input --output --labels --weighted --stop --depth --rep  
+python SparseStruct.py --input --output --nodefeat --weighted --stop --depth --rep  
 ```
 where:
 * --weighted is a Boolean indicator whether the input graph contains weighted edges
@@ -58,21 +58,22 @@ python SparseStruct.py --input fileneame --output filename --labels filename --w
 #### Input
 
 SparseStruct expects in input comma separated edgelist with headers in the form of: <br>
-	noeID1, nodeID2, weight
 
+	nodeID1, nodeID2, weight
+	
+Note: If --weighted is False, no weights will be read even if they are present in the file.
 
-#### Example
+If $X$ node features are present, SparseStruct expects in input a comma separated numerical features file in the form of: <br>
 
-To run *LabeledSparseStruct* :<br/>
-	``python LabeledSparseStruct.py``
+	nodeID, feature1, feature2, ..., featureX
 
-
+Should your node features be categorical, please use the OneHot Encoder from sklearn to transform them, then save as a csv for input to SparseStruct.py.
 
 #### Output
 
-Output will be of length *n x m* for a graph with *n* vertices and *m* dimensions of the format:
+Output will be a space separated file of dimensions *n x k* for a graph with *n* vertices, where *k* is the node representation size of the format:
 
-    dim1 dim2 ... dimn
+    nodeID dim1 dim2 ... dimk
 
 ## DirectedSparseStruct
 
