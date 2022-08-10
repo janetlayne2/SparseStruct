@@ -83,6 +83,7 @@ Output will be a space separated file of dimensions *n x k* for a graph with *n*
     nodeID dim1 dim2 ... dimk
 
 ## DirectedSparseStruct
+In development
 
 ## ExplanationSparseStruct
 
