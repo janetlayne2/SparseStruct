@@ -53,7 +53,7 @@ where:
 * --depth is the number of iterations, which corresponds to the depth of neighborhood exploration upon which each node's representation is based (note that if stop = True then the algorithm will run to convergence regardless of depth input)
 For example:
 ```bash
-python SparseStruct.py --input fileneame --output filename --labels filename --weighted False --stop False --depth 10 --rep 20  
+python SparseStruct.py --input fileneame --output filename --labels filename --weighted --stop --depth 10 --rep 20  
 ```
 
 #### Input
