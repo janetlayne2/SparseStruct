@@ -36,6 +36,12 @@ If you make use of the SparseStruct or Explanation algorithm in your research, p
 }
 ```
 
+## Publication Dataset
+
+The Terror Group dataset used for this publication has a different format than the general-use SparseStruct code takes as input. To obtain SparseStruct node representations for the nodes (considering its weighted edges and node features), simply run : 
+```bash
+python LabeledSparseStruct.py
+```
 
 ## Undirected
 
