@@ -15,7 +15,7 @@ Gian Maria Campedelli, Janet Layne, Jack Herzoff, and Edoardo Serra.
 
 <p align="center"><img src="figs/proxvsstruc.png" width="500"/></p>
 
-The SparseStruct algorithm generates node representations based upon the structural characteristics of node's neighborhoods. 
+SparseStruct is a node representation learning(NRL) algorithm that generates node representations based upon the structural characteristics of each node's neighborhoods. 
 An implementation for directed graphs is in development. 
 
 ## Citing
