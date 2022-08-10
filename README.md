@@ -63,7 +63,7 @@ python SparseStruct.py --input fileneame --output filename --labels filename --w
 ```
 or
 ```bash
-python SparseStruct.py --input fileneame --output filename --labels filename --stop --rep 20  
+python SparseStruct.py --input fileneame --output filename --stop --rep 20  
 ```
 
 #### Input
