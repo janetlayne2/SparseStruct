@@ -13,7 +13,7 @@ Edoardo Serra, Mikel Joaristi, Alfredo Cuzzocrea
 
 Gian Maria Campedelli, Janet Layne, Jack Herzoff, and Edoardo Serra.
 
-
+<p align="center"><img src="figs/proxvsstruc.png" width="500"/></p>
 
 The SparseStruct algorithm generates node representations based upon the structural characteristics of node's neighborhoods. 
 An implementation for directed graphs is in development. 
